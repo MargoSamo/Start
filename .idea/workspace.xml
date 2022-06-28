@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/Buttel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/plaer/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/Entrance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/EntranceTestDrive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/Entrance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/margo/start/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/margo/start/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Start/org/margo/start/Buttel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/Buttel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Start/org/margo/start/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Start/org/margo/start/plaer/TapeDeck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/plaer/TapeDeck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Start/org/margo/start/plaer/TapeDeckTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/plaer/TapeDeckTestDrive.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,23 +34,40 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AwJFhkV00mkUgseA98fa1mVcKy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/margo/Projects/MentalMath",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.TapeDeckTestDrive">
+}]]></component>
+  <component name="RunManager" selected="Application.EntranceTestDrive">
     <configuration name="Buttel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.margo.start.Buttel" />
+      <module name="Start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.margo.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntranceTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.EntranceTestDrive" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
@@ -72,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EntranceTestDrive" />
         <item itemvalue="Application.TapeDeckTestDrive" />
         <item itemvalue="Application.Buttel" />
       </list>
