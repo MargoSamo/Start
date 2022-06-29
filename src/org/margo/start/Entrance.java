@@ -9,20 +9,21 @@ public class Entrance {
             System.out.println("Вход через дверь");
         } else if (key > 14) {
             System.out.println("Вход через окно");
-        }else {
+        } else if (key == 0) {
+            System.out.println("Exit broke");
+        } else
             System.out.println("Еду к маме");
                 }
             }
-        }
 
 
 
 class EntranceTestDrive {
     public static void main (String[] args) {
      Entrance one = new Entrance();
-     one.key = 70;
+     one.key = 50;
      Entrance two = new Entrance();
-     two.key = 50;
+     two.key = 0;
      Entrance three = new Entrance();
      three.key = 5;
 

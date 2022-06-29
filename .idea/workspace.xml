@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/Entrance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/EntranceTestDrive.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/Entrance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Start/org/margo/start/Buttel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/Buttel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Start/org/margo/start/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Start/org/margo/start/plaer/TapeDeck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/plaer/TapeDeck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Start/org/margo/start/plaer/TapeDeckTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/plaer/TapeDeckTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Start/org/margo/start/Entrance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/Entrance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Start/org/margo/start/EntranceTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/EntranceTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/margo/start/Entrance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/margo/start/Entrance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/margo/Projects/MentalMath",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
