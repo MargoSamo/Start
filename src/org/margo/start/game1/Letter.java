@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class Letter {
     public static void main(String[] args) throws IOException {
-        char ch, answer = 'b';
+        char ch, answer = 'c';
 
         System.out.println("Какую букву я загадала ?");
         System.out.print("Попытайтесь её угадать: ");
@@ -12,7 +12,7 @@ public class Letter {
         ch = (char) System.in.read();
 
         if (ch == answer) {
-            System.out.print("Поздравляю! ");
+            System.out.print("Поздравляю! Вы угадали! ");
         } else if (ch > answer) {
             System.out.print("Перестарался! ");
         } else {
