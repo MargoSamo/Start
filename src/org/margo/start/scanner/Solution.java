@@ -28,6 +28,10 @@ public class Solution {
             System.out.println(cold);
         if (t >= 0)
             System.out.println(warm);
+
+        String militaryCommissar = ", явитесь в военкомат";
+        if (age >=18 && age <=28)
+            System.out.println(name + militaryCommissar);
         }
     }
 }
