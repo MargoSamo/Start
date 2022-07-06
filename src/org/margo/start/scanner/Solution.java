@@ -16,10 +16,18 @@ public class Solution {
         Scanner scanner = new Scanner(str);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        if (a > 5) {
+        if (a > 70) {
         System.out.println(a + b);
         } else {
         System.out.println(a - b);
+
+        String cold = "на улице холодно";
+        String warm = "на улице тепло";
+        int t = console.nextInt();
+        if (t < 0)
+            System.out.println(cold);
+        if (t >= 0)
+            System.out.println(warm);
         }
     }
 }

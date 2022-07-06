@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Start.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Start/org/margo/start/scanner/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/scanner/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/margo/start/scanner/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/margo/start/scanner/Solution.java" afterDir="false" />
     </list>
@@ -40,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/margo/Projects/MentalMath/README.md",
+    "last_opened_file_path": "C:/Users/margo/Projects/center-old",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
