@@ -19,7 +19,18 @@ public class Solution {
         if (a > 70) {
         System.out.println(a + b);
         } else {
-        System.out.println(a - b);
+            System.out.println(a - b);
+        }
+
+        String militaryCommissar = ", явитесь в военкомат";
+        if (age >=18 && age <=28)
+            System.out.println(name + militaryCommissar);
+
+        if (age < 18) {
+            if (age >= 6)
+                System.out.println("нужно ходить в школу");
+        }   else
+                System.out.println("пора в институт");
 
         String cold = "на улице холодно";
         String warm = "на улице тепло";
@@ -29,9 +40,5 @@ public class Solution {
         if (t >= 0)
             System.out.println(warm);
 
-        String militaryCommissar = ", явитесь в военкомат";
-        if (age >=18 && age <=28)
-            System.out.println(name + militaryCommissar);
-        }
     }
 }
