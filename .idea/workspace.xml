@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Start/org/margo/start/sign/Output.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/sign/Output.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/margo/start/sign/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/margo/start/sign/Output.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
