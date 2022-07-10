@@ -7,7 +7,7 @@
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Start/org/margo/start/sign/Output.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Start/org/margo/start/sign/Output.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/margo/start/sign/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/margo/start/sign/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/margo/start/scanner/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/margo/start/scanner/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Output">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Choice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.margo.start.month.Choice" />
       <module name="Start" />
@@ -115,9 +115,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Output" />
         <item itemvalue="Application.Exercise1" />
-        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Letter" />
         <item itemvalue="Application.Choice" />
       </list>

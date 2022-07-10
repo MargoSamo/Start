@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args)
     {
-        Scanner console = new Scanner(System.in);
+        /*Scanner console = new Scanner(System.in);
         String name = console.nextLine();
         int age = console.nextInt();
         System.out.println("Name: " + name);
@@ -38,7 +38,18 @@ public class Solution {
         if (t < 0)
             System.out.println(cold);
         if (t >= 0)
-            System.out.println(warm);
+            System.out.println(warm);*/
 
-    }
+        Scanner scanner = new Scanner(System.in);
+        int max = Integer.MIN_VALUE;
+        while (scanner.hasNextInt()) {
+            int current = scanner.nextInt();
+            if ( current > max) {
+                if (current %2 ==0 )
+                max = current;
+            }
+        }
+        System.out.println(max);
+
+}
 }
