@@ -40,8 +40,9 @@ public class Solution {
         if (t >= 0)
             System.out.println(warm);*/
 
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         int max = Integer.MIN_VALUE;
+
         while (scanner.hasNextInt()) {
             int current = scanner.nextInt();
             if ( current > max) {
@@ -50,6 +51,39 @@ public class Solution {
             }
         }
         System.out.println(max);
+*/
+        /*Scanner scanner = new Scanner(System.in);
+        int min1 = Integer.MAX_VALUE;
+        int min2 = Integer.MAX_VALUE;
 
+        while (scanner.hasNextInt()) {
+            int i = scanner.nextInt();
+            if (i < min1) {
+                min2 = min1;
+                min1 = i;
+            } else if (i < min2 && i != min1) {
+                min2 = i;
+            }
+        }
+        System.out.println(min2);*/
+
+        Scanner scanner = new Scanner(System.in);
+        int start = scanner.nextInt();
+        int end = scanner.nextInt();
+        int multiple = scanner.nextInt();
+
+        int sum = 0;
+        //напишите тут ваш код
+
+        for (; start < end; start++)
+        {
+            if (start % multiple != 0)continue;
+            sum = sum + start;
+        }
+
+        System.out.println(sum);
+
+    }
 }
-}
+
+
