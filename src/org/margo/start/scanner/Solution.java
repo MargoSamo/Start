@@ -74,7 +74,7 @@ public class Solution {
             System.out.print("8");
         System.out.println();
     }*/
-        Scanner console = new Scanner(System.in);
+        /*Scanner console = new Scanner(System.in);
         String name = console.nextLine();
         int number = console.nextInt();
 
@@ -83,7 +83,15 @@ public class Solution {
             System.out.println(name);
             number--;
         }
-        while (number > 0 && number < 4);
+        while (number > 0 && number < 4);*/
+
+        Scanner console = new Scanner(System.in);
+        int radius = console.nextInt();
+        double pi = 3.14;
+        int S = (int)(pi * radius * radius);
+
+        System.out.println(S);
+
 
     }
 }
