@@ -67,15 +67,25 @@ public class Solution {
         }
         System.out.println(min2);*/
 
-   for (int i = 0; i < 10; i++)
+   /*for (int i = 0; i < 10; i++)
     {
         int starCount = 1 + i;
         for (int j = 0; j < starCount; j++)
             System.out.print("8");
         System.out.println();
-    }
+    }*/
+        Scanner console = new Scanner(System.in);
+        String name = console.nextLine();
+        int number = console.nextInt();
 
-}
+        do {
+
+            System.out.println(name);
+            number--;
+        }
+        while (number > 0 && number < 4);
+
+    }
 }
 
 
