@@ -92,15 +92,21 @@ public class Solution {
 
         System.out.println(S);*/
 
-        Scanner console = new Scanner(System.in);
+       /* Scanner console = new Scanner(System.in);
         int amtBank = console.nextInt();
         int amtHuman = console.nextInt();
 
         double rez = amtBank * 1.0 / amtHuman;
 
         System.out.println(rez);
+*/
+        double glass = 0.5;
+        Scanner console = new Scanner(System.in);
+        boolean data = console.nextBoolean();
 
+        int b  = (data == true) ? (int)Math.ceil(glass) : (int)Math.floor(glass);
 
+        System.out.println(b);
 
     }
 }
