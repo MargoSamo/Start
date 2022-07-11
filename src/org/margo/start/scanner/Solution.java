@@ -85,12 +85,21 @@ public class Solution {
         }
         while (number > 0 && number < 4);*/
 
-        Scanner console = new Scanner(System.in);
+        /*Scanner console = new Scanner(System.in);
         int radius = console.nextInt();
         double pi = 3.14;
         int S = (int)(pi * radius * radius);
 
-        System.out.println(S);
+        System.out.println(S);*/
+
+        Scanner console = new Scanner(System.in);
+        int amtBank = console.nextInt();
+        int amtHuman = console.nextInt();
+
+        double rez = amtBank * 1.0 / amtHuman;
+
+        System.out.println(rez);
+
 
 
     }
