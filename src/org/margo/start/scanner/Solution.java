@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Solution {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
+
         /*Scanner console = new Scanner(System.in);
         String name = console.nextLine();
         int age = console.nextInt();
@@ -67,23 +67,15 @@ public class Solution {
         }
         System.out.println(min2);*/
 
-        Scanner scanner = new Scanner(System.in);
-        int start = scanner.nextInt();
-        int end = scanner.nextInt();
-        int multiple = scanner.nextInt();
-
-        int sum = 0;
-        //напишите тут ваш код
-
-        for (; start < end; start++)
-        {
-            if (start % multiple != 0)continue;
-            sum = sum + start;
-        }
-
-        System.out.println(sum);
-
+   for (int i = 0; i < 10; i++)
+    {
+        int starCount = 1 + i;
+        for (int j = 0; j < starCount; j++)
+            System.out.print("8");
+        System.out.println();
     }
+
+}
 }
 
 
