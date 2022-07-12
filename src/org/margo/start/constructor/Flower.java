@@ -1,11 +1,11 @@
 package org.margo.start.constructor;
 
-public abstract class Flowers {
+public abstract class Flower {
     String name = "цветок";
-    public Flowers(String name) {
+    public Flower(String name) {
         this.name = name;
     }
-    public Flowers() {
+    public Flower() {
     }
     public void grow() {
         System.out.println("Вырос " + name);
