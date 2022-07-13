@@ -4,10 +4,13 @@ public class Basket {
 
     int volume;
     String name;
-
+    Flower[] flowers = new Flower [10];
 
     public void add() {
-
+        for (int i =0; i < 10; i++) {
+           Rose rose = new Rose("green");
+           flowers[i] = rose;
+        }
     }
     public void present() {
 
@@ -15,10 +18,10 @@ public class Basket {
     public void collect() {
 
     }
-    public void find() {
+    void find() {
 
     }
-    public void discover() {
+    void discover() {
 
     }
     public void see() {
