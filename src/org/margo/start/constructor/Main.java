@@ -8,7 +8,8 @@ public class Main {
         Pion pion = new Pion(45);
         pion.grow();
         Basket basket = new Basket((short) 30);
-
+        basket.setPrice(100);
+        System.out.println(basket);
     }
 
 }
