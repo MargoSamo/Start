@@ -7,6 +7,8 @@ public class Main {
         rose.grow();
         Pion pion = new Pion(45);
         pion.grow();
+        Basket basket = new Basket((short) 30);
+
     }
 
 }
