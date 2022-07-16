@@ -9,8 +9,8 @@ public class Main {
         pion.grow();
         Basket basket = new Basket((short) 30);
         basket.setPrice(100);
-        buscet.putFlower(rose);
-        buscet.putFlower(pion);
+        basket.putFlower(rose);
+        basket.putFlower(pion);
 
         System.out.println(basket);
 

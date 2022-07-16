@@ -24,12 +24,8 @@ public class Basket {
       if (flowersInBasketCounter < size ) {
          flowers[0] = flower;
          flowersInBasketCounter++;
-
       }
-
-
-
-      }
+   }
    @Override
    public String toString() {
       return "Basket size: " + size + " price: " + price;
