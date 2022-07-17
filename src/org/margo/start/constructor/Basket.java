@@ -4,7 +4,6 @@ public class Basket {
    private final short size;
    private int price;
    private Flower[] flowers;
-
    private int flowersInBasketCounter = 0;
    public Basket(short size) {
       this.size = size;
@@ -22,13 +21,16 @@ public class Basket {
    // Корзина принимает цветок
    public void putFlower(Flower flower) {
       if (flowersInBasketCounter < size ) {
-         flowers[0] = flower;
+         flowers[flowersInBasketCounter] = flower;
          flowersInBasketCounter++;
       }
    }
    @Override
    public String toString() {
-      return "Basket size: " + size + " price: " + price;
+      String list = "";
+      for (int i=0; i < size; i++) {
+         list = list + flowers[i];
+      }
+      return "Basket size: " + size + " price: " + price + " flowers: " + list;
    }
-
 }

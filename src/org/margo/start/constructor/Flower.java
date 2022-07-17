@@ -10,4 +10,8 @@ public abstract class Flower {
     public void grow() {
         System.out.println("Вырос " + name);
     }
+
+    public String toString() {
+        return name;
+    }
 }
