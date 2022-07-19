@@ -14,7 +14,7 @@ public abstract class Flower {
         this.size = size;
     }
     public void grow() {
-        System.out.println("Вырос " + name + " " + size);
+        System.out.println("Вырос/(ла) " + name + " " + size);
     }
 
     public String toString() {

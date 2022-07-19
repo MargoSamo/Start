@@ -3,13 +3,13 @@ package org.margo.start.constructor;
 public class Main {
 
     public static void main(String[] args) {
-        Rose rose = new Rose("yellow");
+        Rose rose = new Rose("red");
         rose.grow();
-        Pion pion = new Pion(45);
+        Pion pion = new Pion(3);
         pion.grow();
-        Lilia lilia = new Lilia("white", 5);
+        Lilia lilia = new Lilia("white", 4);
         lilia.grow();
-        Basket basket = new Basket((short) 30);
+        Basket basket = new Basket((short) 4);
         basket.setPrice(100);
         basket.putFlower(rose);
         basket.putFlower(pion);
@@ -17,6 +17,7 @@ public class Main {
 
         System.out.println(basket);
 
+       
     }
 
 }
