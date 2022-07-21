@@ -10,37 +10,14 @@ public class Main {
         Lilia lilia = new Lilia("white", 5);
         lilia.grow();
         Basket basket = new Basket((short) 15);
-        basket.setPrice(100);
-        basket.putFlower(rose);
-        basket.putFlower(pion);
-        basket.putFlower(rose);
-        basket.putFlower(pion);
-        basket.putFlower(lilia);
+        basket.setPrice(10);
         basket.putFlower(rose);
         basket.putFlower(pion);
         basket.putFlower(lilia);
-        basket.putFlower(rose);
-        basket.putFlower(pion);
-        basket.putFlower(lilia);
-        basket.putFlower(rose);
-        basket.putFlower(pion);
-        basket.putFlower(lilia);
-        basket.putFlower(rose);
-        basket.putFlower(pion);
-        basket.putFlower(lilia);
-        basket.putFlower(rose);
-        basket.putFlower(pion);
-        basket.putFlower(lilia);
-        basket.putFlower(rose);
-        basket.putFlower(pion);
-        basket.putFlower(lilia);
-        basket.putFlower(rose);
-        basket.putFlower(pion);
         basket.putFlower(lilia);
 
         System.out.println(basket);
 
-       
     }
 
 }
