@@ -1,5 +1,6 @@
 package org.margo.start.controller;
 
+/*
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,3 +13,4 @@ public class Controller {
 
     }
 }
+*/
