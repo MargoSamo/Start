@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/music/MiniMiniMusicApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/music/MiniMusicCmdLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MiniMiniMusicApp">
+  <component name="RunManager" selected="Application.MiniMusicCmdLine">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.margo.start.twomethods.App" />
       <module name="Start" />
@@ -86,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MiniMusicCmdLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.music.MiniMusicCmdLine" />
+      <module name="Start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.margo.start.music.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MusicTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.margo.start.music.MusicTest1" />
       <module name="Start" />
@@ -99,26 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.margo.start.constructor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.constructor.Main" />
-      <module name="Start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.margo.start.constructor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiniMusicCmdLine" />
         <item itemvalue="Application.MiniMiniMusicApp" />
         <item itemvalue="Application.MusicTest1" />
         <item itemvalue="Application.FullMoons" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.org.margo.start.constructor.Main" />
       </list>
     </recent_temporary>
   </component>
