@@ -2,8 +2,12 @@ package org.margo.start.doctor;
 
 import java.util.Date;
 public class DoctorsAppointment {
-    public boolean appointment(Date date, String name, String tel) {
-        return true;
 
+    private HospitalNotifier hospitalNotifier = new HospitalNotifier();
+    public boolean appointment(Date date, String name, String tel) {
+        notifyHospital();
+        return true;
     }
+
+
 }
