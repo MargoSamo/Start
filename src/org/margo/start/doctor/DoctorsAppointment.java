@@ -5,9 +5,10 @@ public class DoctorsAppointment {
 
     private HospitalNotifier hospitalNotifier = new HospitalNotifier();
     public boolean appointment(Date date, String name, String tel) {
-        notifyHospital();
+        hospitalNotifier.notifyHospital();
         return true;
     }
+
 
 
 }
