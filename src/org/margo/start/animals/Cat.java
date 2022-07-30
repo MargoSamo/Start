@@ -10,7 +10,7 @@ public class Cat {
     }
 
     void speak() {
-        System.out.println("Меня зовут " + name + ", мне " + age + " лет." );
+        System.out.println("Я кошка. Меня зовут " + name + ", мне " + age + " лет." );
     }
 
 }
