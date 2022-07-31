@@ -13,8 +13,8 @@ public class Cat {
         System.out.println("Я кошка. Меня зовут " + name + ", мне " + age + " лет." );
     }
 
-    void catchBird(Bird catchBird) {
-        System.out.println("Кошка " + name + " поймала птицу ");
+    void catchBird() {
+        System.out.println("Кошка " + name + " поймала птицу.");
         }
 
 }

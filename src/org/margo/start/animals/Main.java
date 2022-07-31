@@ -14,6 +14,7 @@ public class Main {
         cat2.name = "Феликс";
         cat2.age = 8;
         cat2.speak();
+        cat2.catchBird();
 
         Dog dog = new Dog();
         dog.setName("Baks");
@@ -23,6 +24,8 @@ public class Main {
         Bird bird = new Bird();
         bird.setNameAndAge("Воробей", 8);
         bird.speak();
+
+        cat1.catchBird();
 
     }
 
