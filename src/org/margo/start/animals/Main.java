@@ -9,6 +9,7 @@ public class Main {
         cat1.age = 5;
         cat1.speak();
 
+
         Cat cat2 = new Cat();
         cat2.name = "Феликс";
         cat2.age = 8;
