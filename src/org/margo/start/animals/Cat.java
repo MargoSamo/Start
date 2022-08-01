@@ -2,19 +2,23 @@ package org.margo.start.animals;
 
 public class Cat {
 
-    String name;
-    int age;
+    private String name;
+    private int age;
 
-    void setName(String userName) {
+    public void setName(String userName) {
         name = userName;
     }
 
-    void speak() {
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void speak() {
         System.out.println("Я кошка. Меня зовут " + name + ", мне " + age + " лет." );
     }
 
-    void catchBird() {
-        System.out.println("Кошка " + name + " поймала птицу.");
+    public void catchBird(Bird bird) {
+        System.out.println("Кошка " + name + " поймала птицу " + bird.getName());
         }
 
 }

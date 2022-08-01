@@ -6,15 +6,14 @@ public class Main {
 
         Cat cat1 = new Cat();
         cat1.setName("Vi");
-        cat1.age = 5;
+        cat1.setAge(5);
         cat1.speak();
 
-
         Cat cat2 = new Cat();
-        cat2.name = "Феликс";
-        cat2.age = 8;
+        cat2.setName("Феликс");
+        cat2.setAge(8);
         cat2.speak();
-        cat2.catchBird();
+
 
         Dog dog = new Dog();
         dog.setName("Baks");
@@ -25,7 +24,8 @@ public class Main {
         bird.setNameAndAge("Воробей", 8);
         bird.speak();
 
-        cat1.catchBird();
+        cat1.catchBird(bird);
+        cat2.catchBird(bird);
 
     }
 
