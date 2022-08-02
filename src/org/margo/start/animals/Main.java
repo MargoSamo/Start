@@ -14,7 +14,6 @@ public class Main {
         cat2.setAge(8);
         cat2.speak();
 
-
         Dog dog = new Dog();
         dog.setName("Baks");
         dog.age = 9;
@@ -26,6 +25,14 @@ public class Main {
 
         cat1.catchBird(bird);
         cat2.catchBird(bird);
+
+        Mouse mouse = new Mouse();
+        mouse.setName("");
+        mouse.setAge(-1);
+        mouse.speak();
+
+        cat1.eatMouse(mouse);
+
 
     }
 
