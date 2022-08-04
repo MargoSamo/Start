@@ -33,6 +33,12 @@ public class Main {
 
         cat1.eatMouse(mouse);
 
+        Tiger tiger = new Tiger();
+        tiger.setName("Frosiy");
+        tiger.setAge(-1);
+        tiger.speak();
+
+
     }
 
 }
