@@ -27,12 +27,11 @@ public class Main {
         cat2.catchBird(bird);
 
         Mouse mouse = new Mouse();
-        mouse.setName("");
-        mouse.setAge(-1);
+        mouse.setName("Mix");
+        mouse.setAge(3);
         mouse.speak();
 
         cat1.eatMouse(mouse);
-
 
     }
 

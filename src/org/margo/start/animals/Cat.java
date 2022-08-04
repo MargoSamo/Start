@@ -22,7 +22,7 @@ public class Cat {
     }
 
     public void eatMouse(Mouse mouse) {
-        if (mouse.getName().isEmpty() && mouse.getAge() < 0 ) {
+        if (mouse.getName().isEmpty() || mouse.getAge() < 0 ) {
             System.out.println("Кошка не может поймать не существующую мышку!");
         } else {
             System.out.println("Я коша " + name + " хочу поймать мышку " + mouse.getName());

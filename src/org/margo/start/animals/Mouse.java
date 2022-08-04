@@ -11,7 +11,6 @@ public class Mouse {
         }
         this.name = name;
     }
-
     public String getName() {
         return name;
     }
@@ -28,7 +27,10 @@ public class Mouse {
     }
 
     public void speak() {
-        System.out.println("Я мышка по имени " + name + ". Мне " + age + " лет и я умею говорить.");
+        if (name.isEmpty() || age < 0) {
+            System.out.println("Мышки не существует!");
+        } else {
+            System.out.println("Я мышка по имени " + name + ". Мне " + age + " лет и я умею говорить.");
+        }
     }
-
 }
