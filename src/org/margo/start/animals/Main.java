@@ -4,14 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Cat cat1 = new Cat();
-        cat1.setName("Vi");
-        cat1.setAge(5);
+        Cat cat1 = new Cat("Vi", 5);
         cat1.speak();
 
-        Cat cat2 = new Cat();
-        cat2.setName("Феликс");
-        cat2.setAge(8);
+        Cat cat2 = new Cat("Феликс", 8);
         cat2.speak();
 
         Dog dog = new Dog();
@@ -38,6 +34,8 @@ public class Main {
         tiger.setAge(-1);
         tiger.speak();
 
+       /* Fox fox = new Fox();
+        fox.setName("Лиса");*/
 
     }
 
