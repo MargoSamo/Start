@@ -4,6 +4,27 @@ public class Main {
 
     public static void main(String[] args) {
 
+        int[] nam = new int[5];
+        nam[0] = 20;
+        System.out.println(nam[0]);
+
+        String[] strings = {"Привет ", "новый ", "массив "};
+        for (String s: strings) {
+            System.out.print(s);
+        }
+        System.out.println();
+
+        int[] namber = {1, 5, 7, 8};
+            int sum = 0;
+            for (int x: namber) {
+                sum = sum + x;
+            }
+            System.out.println(sum);
+
+            System.out.println();
+
+
+
         Cat cat1 = new Cat("Vi", 5);
         cat1.speak();
 
