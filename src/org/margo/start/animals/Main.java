@@ -55,8 +55,9 @@ public class Main {
         tiger.setAge(-1);
         tiger.speak();
 
-       /* Fox fox = new Fox();
-        fox.setName("Лиса");*/
+        Fox fox = new Fox("Лиса", 6);
+        fox.speak();
+
 
     }
 
