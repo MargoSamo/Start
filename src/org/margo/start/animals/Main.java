@@ -23,8 +23,6 @@ public class Main {
 
             System.out.println();
 
-
-
         Cat cat1 = new Cat("Vi", 5);
         cat1.speak();
 
@@ -58,6 +56,8 @@ public class Main {
         Fox fox = new Fox("Лиса", 6);
         fox.speak();
 
+        Chicken chicken = new Chicken("Spicy", 1);
+        chicken.speak();
 
     }
 

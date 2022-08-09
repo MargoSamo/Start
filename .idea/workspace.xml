@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/animals/Chicken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/margo/start/animals/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/margo/start/animals/Arrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/margo/start/animals/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/margo/start/animals/Fox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/margo/start/animals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/margo/start/animals/Main.java" afterDir="false" />
     </list>
@@ -40,7 +42,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/margo/Projects/ulbitvspring&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/margo/Projects/Signal-Server&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
