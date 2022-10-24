@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/thread/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/lambda/LambdaOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/lambda/LambdaThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/lambda/LambdaTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/lambda/LambdaZero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/margo/start/animals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/margo/start/animals/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +50,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.doctor.Main" />
+  <component name="RunManager" selected="Application.LambdaThree">
+    <configuration name="Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.lambda.Lambda" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.margo.start.doctor.*" />
+          <option name="PATTERN" value="org.margo.start.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiniMiniMusicApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.music.MiniMiniMusicApp" />
+    <configuration name="LambdaThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.lambda.LambdaThree" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.margo.start.music.*" />
+          <option name="PATTERN" value="org.margo.start.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +77,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiniMusicCmdLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.music.MiniMusicCmdLine" />
+    <configuration name="LambdaTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.lambda.LambdaTwo" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.margo.start.music.*" />
+          <option name="PATTERN" value="org.margo.start.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.lambda.LambdaZero" />
+      <module name="Start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.margo.start.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.margo.start.animals.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.animals.Main" />
-      <module name="Start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.margo.start.animals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaThree" />
+        <item itemvalue="Application.LambdaZero" />
+        <item itemvalue="Application.LambdaTwo" />
+        <item itemvalue="Application.org.margo.start.lambda.Lambda" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.org.margo.start.animals.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MiniMusicCmdLine" />
-        <item itemvalue="Application.MiniMiniMusicApp" />
       </list>
     </recent_temporary>
   </component>
