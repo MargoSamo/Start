@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/lambda/LambdaOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/lambda/LambdaThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/lambda/LambdaTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/lambda/LambdaZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/lambda/LambdaFour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/margo/start/animals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/margo/start/animals/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +46,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LambdaThree">
-    <configuration name="Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.lambda.Lambda" />
+  <component name="RunManager" selected="Application.LambdaFour">
+    <configuration name="LambdaFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.lambda.LambdaFour" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
@@ -118,10 +114,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaFour" />
         <item itemvalue="Application.LambdaThree" />
         <item itemvalue="Application.LambdaZero" />
         <item itemvalue="Application.LambdaTwo" />
-        <item itemvalue="Application.org.margo.start.lambda.Lambda" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
