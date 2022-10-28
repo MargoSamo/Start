@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/collections/LinkedListOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/collections/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/collections/HashMapOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinkedListOne">
+  <component name="RunManager" selected="Application.HashMapOne">
+    <configuration name="HashMapOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.collections.HashMapOne" />
+      <module name="Start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.margo.start.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LambdaFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.margo.start.lambda.LambdaFour" />
       <module name="Start" />
@@ -63,19 +75,6 @@
     </configuration>
     <configuration name="LambdaThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.margo.start.lambda.LambdaThree" />
-      <module name="Start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.margo.start.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.lambda.LambdaZero" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapOne" />
         <item itemvalue="Application.LinkedListOne" />
         <item itemvalue="Application.org.margo.start.collections.ArrayListOne" />
         <item itemvalue="Application.LambdaFour" />
         <item itemvalue="Application.LambdaThree" />
-        <item itemvalue="Application.LambdaZero" />
       </list>
     </recent_temporary>
   </component>
