@@ -36,7 +36,5 @@ public class ReadObject {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-
-
     }
 }

@@ -3,7 +3,7 @@ package org.margo.start.serializable;
 import java.io.Serializable;
 
 public class Person implements Serializable {
-    private int id;
+    private transient int id;
     private String name;
 
     public Person(int id, String name) {

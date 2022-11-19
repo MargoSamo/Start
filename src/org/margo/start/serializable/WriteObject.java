@@ -31,6 +31,5 @@ public class WriteObject {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }
