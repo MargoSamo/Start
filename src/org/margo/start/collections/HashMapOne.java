@@ -19,5 +19,9 @@ public class HashMapOne {
 
         System.out.println(map.get(1));
         System.out.println(map.get(10));
+
+        for(Map.Entry<Integer, String> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " : " + entry.getValue());
+        }
     }
 }

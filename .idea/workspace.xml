@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/enumtest/Clouthe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/collections/HashMapTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/collections/LinkedHashMapOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/margo/start/collections/HashMapOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/margo/start/collections/HashMapOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Clothes">
+  <component name="RunManager" selected="Application.LinkedHashMapOne">
     <configuration name="Clothes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.margo.start.enumtest.Clothes" />
       <module name="Start" />
@@ -61,12 +63,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.exceptions.Exception" />
+    <configuration name="HashMapOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.collections.HashMapOne" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.margo.start.exceptions.*" />
+          <option name="PATTERN" value="org.margo.start.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.collections.HashMapTwo" />
+      <module name="Start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.margo.start.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedHashMapOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.collections.LinkedHashMapOne" />
+      <module name="Start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.margo.start.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,39 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.enumtest.Test" />
-      <module name="Start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.margo.start.enumtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WriteObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.serializable.WriteObject" />
-      <module name="Start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.margo.start.serializable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedHashMapOne" />
+        <item itemvalue="Application.HashMapTwo" />
+        <item itemvalue="Application.HashMapOne" />
         <item itemvalue="Application.Clothes" />
-        <item itemvalue="Application.org.margo.start.enumtest.Test" />
         <item itemvalue="Application.ReadObject" />
-        <item itemvalue="Application.WriteObject" />
-        <item itemvalue="Application.Exception" />
       </list>
     </recent_temporary>
   </component>
