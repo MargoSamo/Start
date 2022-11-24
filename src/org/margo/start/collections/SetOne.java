@@ -1,6 +1,5 @@
 package org.margo.start.collections;
 
-import java.beans.IntrospectionException;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
