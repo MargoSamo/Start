@@ -1,9 +1,6 @@
 package org.margo.start.collections;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class HashcodAndEqualsOne {
     public static void main(String[] args) {
@@ -23,7 +20,7 @@ public class HashcodAndEqualsOne {
         Set<Person> set = new HashSet<>();
 
         Person person1 = new Person(1, "Mike");
-        Person person2 = new Person(2, "Katy");
+        Person person2 = new Person(1, "Mike");
 
         map.put(person1, "123");
         map.put(person2, "123");
@@ -33,6 +30,13 @@ public class HashcodAndEqualsOne {
 
         System.out.println(map);
         System.out.println(set);
+
+        /*Set<String> set = new HashSet<>();
+
+        set.add("Hello");
+        set.add("Hello");
+
+        System.out.println(set);*/
 
 
     }
@@ -53,5 +57,18 @@ class Person {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return id == person.id && Objects.equals(name, person.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name);
     }
 }
