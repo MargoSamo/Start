@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/collections/ComparatorOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/collections/ComparableOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +47,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ComparatorOne">
-    <configuration name="ComparatorOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.collections.ComparatorOne" />
+  <component name="RunManager" selected="Application.ComparableOne">
+    <configuration name="ComparableOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.collections.ComparableOne" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.collections.HashMapTwo" />
+    <configuration name="ComparatorOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.collections.ComparatorOne" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparableOne" />
         <item itemvalue="Application.ComparatorOne" />
         <item itemvalue="Application.HashcodAndEqualsOne" />
         <item itemvalue="Application.SetOne" />
         <item itemvalue="Application.LinkedHashMapOne" />
-        <item itemvalue="Application.HashMapTwo" />
       </list>
     </recent_temporary>
   </component>
