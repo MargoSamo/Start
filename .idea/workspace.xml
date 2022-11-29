@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/collections/StackOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/collections/IterableOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StackOne">
+  <component name="RunManager" selected="Application.IterableOne">
     <configuration name="ComparableOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.margo.start.collections.ComparableOne" />
       <module name="Start" />
@@ -74,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashcodAndEqualsOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.collections.HashcodAndEqualsOne" />
+    <configuration name="IterableOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.collections.IterableOne" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IterableOne" />
         <item itemvalue="Application.StackOne" />
         <item itemvalue="Application.QueueOne" />
         <item itemvalue="Application.ComparableOne" />
         <item itemvalue="Application.ComparatorOne" />
-        <item itemvalue="Application.HashcodAndEqualsOne" />
       </list>
     </recent_temporary>
   </component>
