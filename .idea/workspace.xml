@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/multithreading/Five.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/multithreading/Six.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Five">
+  <component name="RunManager" selected="Application.Six">
     <configuration name="Five" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.margo.start.multithreading.Five" />
       <module name="Start" />
@@ -74,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.multithreading.One" />
+    <configuration name="Six" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.multithreading.Six" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Six" />
         <item itemvalue="Application.Five" />
         <item itemvalue="Application.Four" />
         <item itemvalue="Application.Three" />
         <item itemvalue="Application.Two" />
-        <item itemvalue="Application.One" />
       </list>
     </recent_temporary>
   </component>
