@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/multithreading/Nine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/multithreading/Eleven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/multithreading/Ten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/multithreading/Twelve.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +49,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Nine">
+  <component name="RunManager" selected="Application.Twelve">
     <configuration name="Eight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.margo.start.multithreading.Eight" />
+      <module name="Start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.margo.start.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eleven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.multithreading.Eleven" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Seven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.multithreading.Seven" />
+    <configuration name="Ten" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.multithreading.Ten" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
@@ -87,25 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Six" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.multithreading.Six" />
+    <configuration name="Twelve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.multithreading.Twelve" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.margo.start.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TapeDeckTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.plaer.TapeDeckTestDrive" />
-      <module name="Start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.margo.start.plaer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Twelve" />
+        <item itemvalue="Application.Eleven" />
+        <item itemvalue="Application.Ten" />
         <item itemvalue="Application.Nine" />
         <item itemvalue="Application.Eight" />
-        <item itemvalue="Application.TapeDeckTestDrive" />
-        <item itemvalue="Application.Seven" />
-        <item itemvalue="Application.Six" />
       </list>
     </recent_temporary>
   </component>
