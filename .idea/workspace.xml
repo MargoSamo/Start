@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/multithreading/Fourteen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/multithreading/Thirteen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/multithreading/Fifteen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Thirteen">
+  <component name="RunManager" selected="Application.Fifteen">
     <configuration name="Eleven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.margo.start.multithreading.Eleven" />
       <module name="Start" />
@@ -62,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fourteen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.multithreading.Fourteen" />
+    <configuration name="Fifteen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.multithreading.Fifteen" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ten" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.multithreading.Ten" />
+    <configuration name="Fourteen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.multithreading.Fourteen" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fifteen" />
         <item itemvalue="Application.Thirteen" />
         <item itemvalue="Application.Fourteen" />
         <item itemvalue="Application.Twelve" />
         <item itemvalue="Application.Eleven" />
-        <item itemvalue="Application.Ten" />
       </list>
     </recent_temporary>
   </component>
