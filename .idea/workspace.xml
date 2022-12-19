@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1407c4-9d13-423c-8080-07e062e3463d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/reflection/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/reflection/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/margo/start/reflection/TestReflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/margo/start/reflection/Two.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/margo/start/reflection/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/margo/start/reflection/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <recent name="org.margo.start.reflection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestReflection">
+  <component name="RunManager" selected="Application.Two">
     <configuration name="TestReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.margo.start.reflection.TestReflection" />
       <module name="Start" />
@@ -69,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Three" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.margo.start.regexp.Three" />
+    <configuration name="Two" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.margo.start.reflection.Two" />
       <module name="Start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.margo.start.regexp.*" />
+          <option name="PATTERN" value="org.margo.start.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Two" />
         <item itemvalue="Application.TestReflection" />
         <item itemvalue="Application.org.margo.start.annotation.One" />
         <item itemvalue="Application.org.margo.start.lambda1.Two" />
         <item itemvalue="Application.org.margo.start.lambda1.One" />
-        <item itemvalue="Application.Three" />
       </list>
     </recent_temporary>
   </component>
